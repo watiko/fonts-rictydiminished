@@ -1,0 +1,5 @@
+# format version number, currently 3; this line is compulsory!
+version=3
+
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/RictyDiminished-$1\.tar\.gz/ \
+  https://github.com/yascentur/RictyDiminished/releases .*/v?(\d\S*)\.tar\.gz

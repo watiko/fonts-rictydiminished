@@ -1,0 +1,25 @@
+Source: fonts-rictydiminished
+Section: fonts
+Priority: optional
+Maintainer: watiko <service@mail.watiko.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/yascentur/RictyDiminished
+Vcs-Git: git://github.com/watiko/fonts-rictydiminished.git
+Vcs-Browser: https://github.com/watiko/fonts-rictydiminished
+
+Package: fonts-rictydiminished
+Architecture: any
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: Ricty Diminished fonts, supporting Japanese.
+ The font is composed of Inconsolata and Circle M+ 1m and is monospace.
+ .
+ Features:
+  * Latin symbols is based on Inconsolate made by Raph Levien.
+  * The others is based on Circle M+ 1m.
+  * The ratio of halfwidth forms to fullwidth one is one to two.
+  * Full-width space(IDEOGRAPHIC SPACE) is visible.
+  * Some full-width glyphs are defferentiated from half-width corredsponded ones.
+  * EN DASH and EM DASH looks like BROKEN BAR.
