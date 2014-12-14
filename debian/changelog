@@ -1,3 +1,9 @@
+fonts-rictydiminished (3.2.4-2ubuntu1) trusty; urgency=medium
+
+  * Release for Trusty
+
+ -- watiko <service@mail.watiko.net>  Mon, 15 Dec 2014 02:11:25 +0900
+
 fonts-rictydiminished (3.2.4-2) unstable; urgency=medium
 
   * Change Architecture from any to all 
